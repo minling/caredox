@@ -1,0 +1,9 @@
+<h2>Dashboard Title</h2>
+
+<%= form_tag("/titles", method: "create") do %>
+  <%= label_tag(:name, "Title:") %>
+  <%= text_field_tag(:name) %>
+  <%= submit_tag("Submit") %>
+<% end %>
+
+
